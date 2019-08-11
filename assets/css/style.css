@@ -5,6 +5,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
+
 input[type="text"], input[type="password"]{
 	outline: none;
 	padding: 10px;
@@ -26,25 +27,30 @@ input[type="submit"]{
 	border-radius: 3px;
 	cursor: pointer;
 }
+
 input[type="submit"]:hover{
 	background: #0098eb;
 }
+
 .header{
 	border-bottom: 1px solid #eee;
 	padding: 10px 0px;
 	width: 100%;
 	text-align: center;
 }
+
 .header a{
 	color: #333;
 	text-decoration:none;
 }
+
 .header1 {
 	border-bottom: 1px solid #eee;
 	padding: 10px 0px;
 	width: 100%;
 	text-align:	center;
 }
+
 .header1 h1{
 	color: #333;
 	text-decoration: none;
@@ -55,17 +61,19 @@ nav.navbar{
 	background: transparent;
 	border-radius: none;
 	margin-bottom: 0px;
+}
 
-
-}/*
+/*
 .jumbotron {
-   margin-top: 0px;
-   margin-bottom: 0px;
-   background: url("../img/3.jpg");
-   max-height: 500px;
-   background-size: cover;
-   height: 100%;
-   min-height:*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: url("../img/3.jpg");
+	max-height: 500px;
+	background-size: cover;
+	height: 100%;
+	min-height:
+}
+*/
 
 .jumbotron {
     background: #000 url("../img/3.jpg") no-repeat center center;
@@ -76,34 +84,40 @@ nav.navbar{
     color: #FFF; 
     padding: 0px;
 }
+
 .jumbotron h1{
 	font-weight: 800;
 }
+
 .navbar-toggle .icon-bar{
 	background: #000;
 }
+
 section.section1{
 	padding: 50px 0;
 	background: #f9f9f9;
 }
+
 .box{
 	background: #fff;
 	padding: 20px;
 	height: 220px;
 	border-radius: 5px;
 	padding-top: 5px;
-box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.15);
-
+	box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.15);
 }
+
 .box h3{
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 15px;
-border-bottom: 2px solid rgba(0,0,0,0.05);
+	border-bottom: 2px solid rgba(0,0,0,0.05);
 }
+
 .box p {
 	text-align: left;
 }
+
 .col-md-4{
 	margin: 10px 0;
 }
